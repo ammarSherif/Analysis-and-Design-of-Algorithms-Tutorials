@@ -55,6 +55,37 @@ The course is organized into Modules as below:
 
 While teaching the course, we also host some private contests on codeforces to give more practice to the students on each module.
 
+# Technical Requirements
+The material is developed in Jupyter Notebooks for interactive purposes. You need to first install `Python3` and use `pip` to install jupyter lab as below:
+```bash
+pip install jupyterlab
+
+# this is for plotting and empirical analysis
+pip install matplotlib
+```
+You can checkout [Installing Jupyter Lab](https://jupyter.org/install) for further information. 
+
+After that, you can simply clone this repository and start with it.
+
+## Using colab
+
+Alternatively, you can directly the repository
+```bash
+# ==============================================================================
+# Mount your google drive to save the notebooks
+# ==============================================================================
+from google.colab import drive
+drive.mount('/content/drive')
+
+# ==============================================================================
+# clone into your preferred location
+# ------------------------------------------------------------------------------
+# write your drive path instead of PATH
+# ==============================================================================
+!git clone https://github.com/ammarSherif/Analysis-and-Design-of-Algorithms-Tutorials.git PATH
+```
+Now you can open the notebooks as you would like
+
 # References
 Each module has its references mentioned, but I mostly use the below references:
 - [Introduction to Algorithms by Cormen, Leiserson, Rivest and Stein](https://mitpress.mit.edu/books/introduction-algorithms-third-edition)
